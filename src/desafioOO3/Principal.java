@@ -8,10 +8,6 @@ public class Principal {
 		
 		Scanner entrada = new Scanner(System.in);
 		
-		Produto produto1 = new ProdutosHigiene(1, "Para pessoas com corona", 200, "10/10/2020");
-		
-		Produto produto2 = new ProdutosMedicamento(1, "Para pessoas com Asma", 500, "10/10/2020", 0.2);
-		
 		CadastroDeProdutos cadastro = new CadastroDeProdutos();
 		
 		int a = 0;
@@ -63,6 +59,7 @@ public class Principal {
 		}
 		}while(a == 0);
 		
+		entrada.close();
 
 		
 		
